@@ -1,0 +1,101 @@
+body {
+  background-image: url("bg3.jpg");
+  margin: 0;
+  padding: 0%;
+}
+img {
+  opacity: 0.5;
+}
+.bef {
+  width: 300px;
+  position: fixed;
+  margin: 0%;
+  padding: 0%;
+}
+.main {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  font-family: courier, monospace;
+  float: left;
+  margin-left: 450px;
+}
+.aft {
+  width: 300px;
+  position: fixed;
+  margin: 0%;
+  padding: 0%;
+  left: 1230px;
+}
+ul {
+  margin-left: 70px;
+}
+form {
+  margin-left: 90px;
+  color: saddlebrown;
+  font-size: 22px;
+}
+
+input[type="text"] {
+  background-color: #f8f8f8;
+}
+
+#addNeed {
+  background-color: #f8f8f8;
+  color: saddlebrown;
+}
+
+#addHave {
+  background-color: #f8f8f8;
+  color: saddlebrown;
+}
+
+h1 {
+  color: saddlebrown;
+  font-size: 50px;
+  font-weight: 1000;
+  margin-left: 100px;
+}
+
+h2 {
+  color: saddlebrown;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  background-color: rgb(72, 26, 5);
+  border-bottom: 1px solid goldenrod;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: blanchedalmond;
+}
+li a {
+  float: right;
+  text-decoration: solid;
+  color: red;
+}
+#addNeed,
+#addHave {
+  border-radius: 60px;
+  color: blanchedalmond;
+  border-color: brown;
+  background-color: rgb(72, 26, 5);
+  border-width: 3px;
+  height: 30px;
+  width: 50px;
+}
+label {
+  font-size: 1.5 rem;
+  font-weight: 800;
+}
